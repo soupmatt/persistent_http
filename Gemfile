@@ -9,6 +9,6 @@ group :development do
 end
 
 group :test do
-  gem 'shoulda'
+  gem 'shoulda', '~> 2.0'
   gem 'jruby-openssl' if RUBY_PLATFORM[/java/]
 end
